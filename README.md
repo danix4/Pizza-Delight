@@ -1,4 +1,4 @@
-# Pizza Delight
+# Pizza Delight (10.02.2023)
 
 A responsive and interactive pizza website built for a school project.  
 It features a pizza menu with add-to-cart functionality, a cart page with total calculation,  
