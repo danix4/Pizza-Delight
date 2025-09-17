@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Delight - Menu</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    <h1>Pizza Delight</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="menu">
+    <h2>Our Menu</h2>
+    <div class="pizza-card">
+        <h3>Margherita</h3>
+        <p>$10</p>
+        <button onclick="addToCart('Margherita', 10)">Add to Cart</button>
+    </div>
+    <div class="pizza-card">
+        <h3>Pepperoni</h3>
+        <p>$12</p>
+        <button onclick="addToCart('Pepperoni', 12)">Add to Cart</button>
+    </div>
+    <div class="pizza-card">
+        <h3>Veggie Delight</h3>
+        <p>$11</p>
+        <button onclick="addToCart('Veggie Delight', 11)">Add to Cart</button>
+    </div>
+    <div class="pizza-card">
+        <h3>BBQ Chicken</h3>
+        <p>$13</p>
+        <button onclick="addToCart('BBQ Chicken', 13)">Add to Cart</button>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 Pizza Delight. All rights reserved.</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
